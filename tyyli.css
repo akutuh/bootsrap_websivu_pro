@@ -1,0 +1,65 @@
+/* Omat tyylimaaritykset */
+
+body, html {
+    height: 100%;
+    background: #000 url(bg.png) center 75px repeat;
+}
+
+.container-bg {
+  height: 100%;
+  background:  #000 url(con_bg.png) center 75px repeat;
+  display: table;
+} 
+
+.carousel-inner{
+  width:100%;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.navbar .dropdown-menu {
+  background-color: darkgrey;
+}
+.navbar .dropdown.show a { 
+  background-color: darkgrey;
+}
+.card{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: darkgrey;
+  margin-bottom: 10px;
+}
+.card-img-text {
+  width: 25%;
+  height: 10vw;
+  object-fit: cover;
+  padding-left: 20px;
+}
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+a {
+  color: inherit; 
+} 
+footer{
+  padding-left: 10px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+h4 {
+  color: white;
+}
+
